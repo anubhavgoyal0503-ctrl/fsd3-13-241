@@ -1,0 +1,105 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 30px;
+    color: #222;
+    line-height: 1.6;
+    background-color: #ffffff;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+    color: #1a1a1a;
+}
+
+header p {
+    margin: 5px 0;
+    font-size: 15px;
+}
+
+/* Horizontal line */
+hr {
+    border: none;
+    border-top: 1px solid #999;
+    margin: 20px 0;
+}
+
+/* Section */
+section {
+    margin-bottom: 25px;
+}
+
+section h2 {
+    font-size: 20px;
+    color: #1f4e79;
+    border-bottom: 2px solid #1f4e79;
+    padding-bottom: 5px;
+    margin-bottom: 12px;
+}
+
+/* Education / Projects headings */
+h3 {
+    font-size: 16px;
+    margin-bottom: 2px;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* Lists */
+ul {
+    margin-top: 5px;
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Bold text */
+strong {
+    color: #111;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+}
+
+/* Links */
+a {
+    color: #1f4e79;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    body {
+        margin: 20px auto;
+        padding: 0 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    section h2 {
+        font-size: 18px;
+    }
+}
