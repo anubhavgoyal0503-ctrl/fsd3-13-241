@@ -1,0 +1,17 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "localhost-URL\r 127.0.0.1-IP address\r ctrl+c-stop the server\r every request from client has a pair of {request,response}\r npm ===node package manager\r ## NODE PACKAGE MANAGER(NPM)\r used to install ,run,uninstall any program/potoject and package\r -npm intsall<packageName>\r -npm unisntall </packageName>\r to use npm ,the project must be npm project,\r to create npm project we can use\r -npm init -y\r -it creates a package.json file automatically\r package.json holds all the information related to intsall package from npm\r - it also creates a foldrer  node_modules automatically \r -node_modiules holds the package / library fuiles\r -generqlly we ignire the node_modules by.gitignore",
+  "main": "prg1.js",
+  "scripts": {
+    "start": "nodemon prg1.js",
+    "dev": "nodemon prg4.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
