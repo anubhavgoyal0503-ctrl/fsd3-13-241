@@ -1,39 +1,40 @@
-# crud operation on files
-1.fs=(file system) Node JS's module  - interact directly with os , node library,helps in 2.2.2.  reading file in small chunks intsead of loading the whle at once ,streaming is onne example
-3.c-crud,r-retrieve,u-update,d-delete
-4. reading and writing files
-   -readFile()
-   -writeFile()
-   -appendFile()
-   # directory management
-    -mkdir()
-    -rmdir()
-    -readdir()
-    # metadata
-    fstat()
-    # watching for changes
-    -watch()
-    -watchFile()
-    -unwatchFile()
-    # straming large file
-     -createReadStream()
-     -createWritestream()
-     # File opeartions
-     -rename()
-     -truncate()
-     -unlik()
-     -link()
-     -syslink()
-### crud description 
-each item(id,name,price,qty)
-features--
-4)update
-1)add to cart
-2)show cart
-3)remove from cart
-required files---
--crud js
--product.json
-json=javascript object notation 
--products.json-it contain the product details in array form 
--   -D dev dependency
+# FS (File System) Node.js Module
+it direct connect with client Os rather than Browser
+
+## Major tasks of the fs module
+
+- Reading and writing files
+  - readFile()
+  - appendFile()
+- File metadata and information
+  - stat()
+  - lstat()
+  - fstat()
+- Watching for changes
+  - watch()
+  - watchFile()
+- Streaming large files
+  - createReadStream()
+  - createWriteStream()
+- File operations
+  - rename()
+  - truncate()
+  - unlink()
+  - link()
+  - symlink()
+
+## CRUD Operation
+
+Create/Insert, Read/Retrieve, Update, Delete
+
+- Each item(id,name,price,qty)
+  - Add to cart
+  - Show cart
+  - Remove from cart
+  - Update Quantity from cart
+  -checkout
+NOTE: all items will be stored in hold,so after termination of program we can
+retrive cart details
+## Reqiured file
+crud.js-it contains all the methods and entry point
+product.json it contain the product details in array form
