@@ -66,3 +66,7 @@ the content type and status code can be send back to client by two ways
     review:200
    }
 ```
+get no parameter pass to the server when we receive all items 
+post to add records we pass the value from in json format of api dester 
+to delete any product we pass parameter that is id of the product 
+we pass id from url and data to update from body 
